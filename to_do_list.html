@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="to_do_list.css" type="text/css">
+</head>
+<body>
+<div>
+    <button type="button" class="col1" onclick="changeBodyBg('#f2f2f2');"></button>
+    <button type="button" class="col2" onclick="changeBodyBg('#bc9797');"></button>
+    <button type="button" class="col3" onclick="changeBodyBg('#a38ea7');"></button>
+</div>
+<div class="mainmenu">
+    <div id="myDIV" class="header">
+        <h1>Dienotvarkė</h1>
+        <input type="text" id="myInput" placeholder="Įrašykite naują darbą">
+        <span onclick="newElement()" class="addBtn">Pridėti</span>
+    </div>
+
+    <ul id="myUL">
+        <li>Nueiti į sporto salę</li>
+        <li class="checked">Nupirkti pieno</li>
+        <li>Sutvarkyti butą</li>
+        <li>Sumokėti sąskaitas</li>
+        <li>Pašerti katę</li>
+    </ul>
+</div>
+</body>
+<script type="text/javascript" src="to_do_list.js"></script>
+</html>
